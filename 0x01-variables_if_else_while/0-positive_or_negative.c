@@ -9,7 +9,7 @@
  * it is executed.
  *
  * Return: Always 0 (Success)
- */ 
+ */
 
 int main(void)
 {
