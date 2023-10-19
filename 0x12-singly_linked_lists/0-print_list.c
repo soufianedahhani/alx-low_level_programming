@@ -1,9 +1,9 @@
 #include "lists.h"
 
 /**
- * print_list - prints list.
- * @h: param list
- * Return: struct
+ * print_list - a function that prints all the elements of a list.
+ * @h: Pointer to a linked list head.
+ * Return: The number of total nodes in the linked list.
  */
 size_t print_list(const list_t *h)
 {
