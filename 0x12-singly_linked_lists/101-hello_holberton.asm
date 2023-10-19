@@ -1,4 +1,5 @@
 ; Declare needed C  functions
+
 	extern	printf		; the C function, to be called
 
 	section .data		; Data section, initialized variables
@@ -19,4 +20,4 @@ main:				; the program label for the entry point
 	pop	rbp		; restore stack
 
 	mov	rax,0		; normal, no error, return value
-	ret
+	ret			; return
